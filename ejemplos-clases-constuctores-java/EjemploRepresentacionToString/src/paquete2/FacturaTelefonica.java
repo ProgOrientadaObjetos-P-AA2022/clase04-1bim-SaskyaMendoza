@@ -5,7 +5,6 @@
  */
 package paquete2;
 
-
 public class FacturaTelefonica {
 
     private String numeroTelefono;
@@ -61,12 +60,11 @@ public class FacturaTelefonica {
     public double obtenerValorFactura() {
         return valorFactura;
     }
-    
+
     @Override
-    public String toString(){
+    public String toString() {
         String cadena = "Soy una factura";
         return cadena;
     }
-    
 
 }
